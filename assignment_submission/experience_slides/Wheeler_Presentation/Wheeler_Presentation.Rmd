@@ -16,9 +16,6 @@ knitr::opts_chunk$set(echo = FALSE)
 - **ggplot2:** Data Visualization Package from Tidyverse.
 - **Tidyverse:** collection of specialized R Packages.
 - **Package:** a bundle of code, data, documentation, & tests to share with others [@wickham_r_2015].
-- Each function & function family has an R Script.
-
-![](ScriptFamily.jpg)
 
 ## First Attempt: Contributing Code
 
@@ -58,6 +55,16 @@ ggplot(df) +
   coord_flip()
 ```
 Posted by Chris Wilke [-@wilke_position_dodge_2019].
+
+</div>
+## Second Attempt: Contributing Documentation
+<div class = "columns-2">
+
+- Each function & function family has an R Script.
+- Pulls code & documentation from other scripts rather than repeating code.
+- Can pull from family head or sibling scripts.
+
+![](ScriptFamily.jpg)
 
 </div>
 
